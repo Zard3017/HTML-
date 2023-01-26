@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    h2{
+      color: grey;
+      font-family:"Bitstream Charter";
+      font-size: xxx-large;
+      padding: 15px;
+      text-align: left;
+      text-underline:crimson;
+      text-align: center;
+
+
+
+    }
+
+    form{
+      font-family: Likhan;
+      font-size: xx-large;
+      padding: 5px;
+      gap: 32px;
+
+
+
+    }
+    input{
+      background-color: #b3d4fc;
+      border: darkred solid;
+      margin: 16px;
+
+
+    }
+    label{
+      text-underline-mode: solid;
+
+
+
+    }
+    button{
+      color: white;
+      background-color: black;
+      font-family: "Samyak Tamil";
+      padding: 9px;
+      border: 26px;
+
+    }
+
+
+
+  </style>
+
+
+
+
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+</head>
+<body>
+<!--label-->
+<!--input-->
+<h2>Student Registration Form</h2>
+<form action="Iframe.html" METHOD="get">
+  <label for="fname">Full Names</label><br>
+  <input type="text"id="fname" placeholder="Enter your name"><br>
+  <label for="email address">E-mail Address</label><br>
+  <input type="email" id="email address" placeholder="Email Address"><br>
+  <label for="nambari ya simu">Phone no.</label><br>
+  <input type="text" id="nambari ya simu" placeholder="Phone number"><br>
+  <label for="Date of Birth">Date of Birth</label><br>
+  <input type="date"id="Date of Birth" ><br>
+  <label for="male">Male</label>\
+<!--  radio is for gender-->
+  <input type="radio" id="male" name="gender">
+  <label for="female">Female</label>
+  <input type="radio"id="female" name="gender"><br> <br>
+  <label for="course">Course Taken</label>
+  <select name="course" id="course">
+    <option value="javascript">Javascript</option>
+    <option value="python">Python</option>
+    <option value="android">Android</option>
+    <option value="datascience">Data science</option>
+    <option value="html5">HTML 5</option>
+    <option value="oracle">Oracle</option>
+    <option value="Bootstrap">Bootstrap</option>
+  </select><br><br>
+  <label for="image">Upload Picture</label>
+  <input type="file" id="image"> <br>
+
+  <label for="Password">Password</label><br>
+  <input type="password"id="Password" name="nenosiri" placeholder="Password"><br>
+  <input type="submit"value="Register Here!"><br>
+
+</form>
+<!--put a single quote&ndash;&gt;-->
+<button TYPE="button" onclick="alert('Safari Lab Morning Class')">BONYEZA</button>
+
+</body>
+</html>

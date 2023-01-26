@@ -1,0 +1,51 @@
+p{
+  color: black;
+  font-family: "DejaVu Sans";
+  font-size: 20px;
+
+  alignment: center;
+
+
+}
+button{
+  color: greenyellow;
+
+  font-size:xx-large;
+  background-color: black;
+  font-family: "padmaa";
+
+  text-align: center;
+  margin: fill;
+
+}
+td,th{
+  border: 2px solid black;
+  font-family: "Noto Sans CJK HK";
+  padding: 10px;
+  text-align: center;
+  color: #361921;
+
+
+  background-color:aqua;
+  /*solid line is full line. dotted */
+
+}
+table{
+  width: 75%;
+  border-collapse: collapse;
+  margin: 10px;
+ border-bottom: darkgreen;
+}
+
+ul{
+  color: darkgreen;
+  font-family: Padauk;
+}
+ol{
+  co
+
+}
+
+
+
+
